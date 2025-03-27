@@ -1,15 +1,18 @@
-
+import React from 'react'
+import { Route, Routes } from "react-router-dom";
+import Homepage from './pages/Homepage';
+import Header from './components/Header';
 
 function App() {
-  
   return (
+
     <>
-      <div>
-      <p className="h-screen flex justify-center items-center text-center text-6xl font-bold">
-        Dong Coffee
-      </p>
-      </div>
-    
+    <div>
+      <Header/>
+      <Routes>
+       <Route path = "/" element = {<Homepage/>}/>
+      </Routes>
+    </div>
     </>
   )
 }
