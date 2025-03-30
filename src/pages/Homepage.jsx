@@ -1,11 +1,13 @@
 import React from "react"; 
+import Hero from "../components/Hero";
 
 function Homepage () {
     return(
 
         <>
-        <div className="h-screen flex justify-center items-center text-4xl font-bold">
-        <h1>Coffee Homepage</h1>
+        <Hero/>
+        <div >
+           <h1 className="my-10 text-2xl text-center">Our Products</h1>
         </div>
         </>
     )

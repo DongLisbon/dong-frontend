@@ -103,21 +103,25 @@
 // export default Header;
 
 import React from 'react';
+import dongbg from '../assets/dongbg.png'
 import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <>
       {/* First Navbar */}
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-[#164e63] border-gray-200 dark:bg-gray-900">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-          <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <Link
+            to="/"
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
-              alt="Flowbite Logo"
+              src={dongbg}
+              className="h-20 w-15"
+              alt="Dongcofee"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white">
               DongCoffee
             </span>
           </Link>
@@ -128,12 +132,19 @@ function Header() {
             >
               My Cart
             </button>
-            <Link
+
+            {/* <Link
               to="/login"
               className="text-sm text-blue-600 dark:text-blue-500 hover:underline"
             >
               Login
+            </Link> */}
+            <Link to="/login">
+            <button class="relative left-1/2 top-8 h-14 w-40 translate-x-[-50%] translate-y-[-50%] transform cursor-pointer rounded-[10px] bg-[#0c0c0c] text-center text-base font-bold text-white before:absolute before:left-0 before:top-0 before:z-[-1] before:h-full before:w-full before:origin-bottom-right before:scale-0 before:rounded-[10px] before:bg-[#ffffff3a] before:transition-transform before:duration-500 before:ease-linear before:content-[''] after:absolute after:left-0 after:top-0 after:z-[-1] after:box-border after:h-full after:w-full after:origin-bottom-right after:scale-100 after:rounded-[10px] after:border-2 after:border-solid after:border-[#fff] after:bg-transparent after:transition-transform after:duration-500 after:ease-linear after:content-[''] hover:before:origin-top-left hover:before:scale-100 hover:before:rounded-[10px] hover:before:transition-transform hover:before:duration-300 hover:before:ease-linear hover:after:origin-top-left hover:after:scale-0 hover:after:transition-transform hover:after:duration-500 hover:after:ease-linear">
+              Login
+            </button>
             </Link>
+
           </div>
         </div>
       </nav>
@@ -182,9 +193,7 @@ function Header() {
       </nav>
 
       {/* Adding padding to the top of the page to avoid content being hidden under the navbar */}
-      <div className="pt-20">
-        {/* Your main content will go here */}
-      </div>
+      <div>{/* Your main content will go here */}</div>
     </>
   );
 }
