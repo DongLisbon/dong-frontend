@@ -1,6 +1,6 @@
-import React from 'react';
-import dongbg from '../assets/dongbg.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import dongbg from "../assets/dongbg.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,11 +9,7 @@ function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <img
-                src={dongbg}
-                className="h-20 w-15"
-                alt="Dongcofee"
-              />
+              <img src={dongbg} className="h-20 w-15" alt="Dongcofee" />
               <span className="self-center text-white text-2xl font-bold whitespace-nowrap dark:text-white">
                 DongCoffee
               </span>
@@ -26,12 +22,22 @@ function Footer() {
               </h2>
               <ul className="text-gray-300 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Coffees
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Equipments
                   </a>
                 </li>
@@ -43,22 +49,42 @@ function Footer() {
               </h2>
               <ul className="text-gray-300 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://www.facebook.com/dongcoffeept" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://www.facebook.com/dongcoffeept"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Facebook
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://www.instagram.com/dongcoffee.pt?igsh=bmg1YXgzZmk4azMz" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://www.instagram.com/dongcoffee.pt?igsh=bmg1YXgzZmk4azMz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Instagram
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://x.com/dongcoffeept?t=wbEFb0qqzMBx__8NhHOtDQ&s=09" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://x.com/dongcoffeept?t=wbEFb0qqzMBx__8NhHOtDQ&s=09"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Twitter
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a
+                    href="https://www.tiktok.com/@dongcoffeept?_t=ZN-8v0fyO35T0Q&_r=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
                     Tiktok
                   </a>
                 </li>
@@ -75,7 +101,10 @@ function Footer() {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="mailto:Dongcoffee@gmail.com" className="hover:underline">
+                  <a
+                    href="mailto:Dongcoffee@gmail.com"
+                    className="hover:underline"
+                  >
                     Dongcoffee@gmail.com
                   </a>
                 </li>
@@ -91,7 +120,11 @@ function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-300 font-semibold sm:text-center dark:text-gray-400">
-            © 2025 <Link to="/" className="hover:underline">Dongcoffee™</Link>. All Rights Reserved.
+            © 2025{" "}
+            <Link to="/" className="hover:underline">
+              Dongcoffee™
+            </Link>
+            . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {/* Facebook Icon */}
@@ -160,9 +193,9 @@ function Footer() {
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="0 0 20 20"
               >
-                <path d="M11.99 0C5.372 0 0 5.373 0 11.99 0 18.61 4.73 23.96 10.88 24v-2.41c-3.26-.19-5.87-2.81-5.87-5.88 0-3.25 2.63-5.88 5.87-5.88 2.13 0 4.12.93 5.44 2.48V7.67h-2.41V5.26h4.53V7.67H18.3v5.88h-2.41v2.41h2.41v2.41h-5.56c-.04 0-.08-.02-.12-.02-3.61 0-6.54 2.91-6.54 6.54s2.92 6.54 6.54 6.54c2.64 0 4.98-1.58 6.12-3.84l3.17.34V0h-2.4v11.79c-.65-1.04-1.79-1.79-3.02-1.79z" />
+                <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm1.174 14.115c-.389.735-.945 1.314-1.595 1.742-.651.438-1.415.651-2.226.651-.392 0-.78-.036-1.16-.107.043-.452.125-.892.243-1.306-.693-.329-1.309-.775-1.888-1.325-.507-.468-.97-.994-1.351-1.563-.51-.842-.917-1.748-1.247-2.686-.232-.619-.479-1.228-.731-1.842-.487-.9-.957-1.803-1.495-2.72-.358-.625-.795-1.187-1.288-1.69C5.833 7.062 4.622 5.54 4.62 5.538c-.24-.34-.533-.588-.883-.85-.149-.016-.332-.037-.522-.059C2.89 4.52 2.554 5.486 3.352 6.232c-.401 1.374-.336 3.057.317 4.192.246.345.566.601.951.771.032-.04.061-.081.091-.122 1.488-1.841 2.31-4.267 1.315-6.468C9.442 10.067 12.102 7.027 11.174 14.115z" />
               </svg>
               <span className="sr-only">TikTok</span>
             </a>

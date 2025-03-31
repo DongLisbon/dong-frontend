@@ -27,9 +27,9 @@ function Hero() {
                 <span class="absolute inset-0 z-10 bg-black/50"></span>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-12 pt-12">
+            <div class="grid grid-cols-2 gap-12 p-10 mt-10">
               <div>
-                <h1 class="mb-8 flex max-w-6xl text-4xl font-semibold leading-none tracking-tight text-gray-800 md:text-6xl">
+                <h1 class="flex max-w-6xl text-4xl font-semibold leading-none tracking-tight text-gray-800 md:text-6xl">
                   Lisbon Speciality Coffee
                 </h1>
               </div>

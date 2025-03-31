@@ -140,7 +140,7 @@ function Header() {
               Login
             </Link> */}
             <Link to="/login">
-            <button class="relative left-1/2 top-8 h-14 w-40 translate-x-[-50%] translate-y-[-50%] transform cursor-pointer rounded-[10px] bg-[#0c0c0c] text-center text-base font-bold text-white before:absolute before:left-0 before:top-0 before:z-[-1] before:h-full before:w-full before:origin-bottom-right before:scale-0 before:rounded-[10px] before:bg-[#ffffff3a] before:transition-transform before:duration-500 before:ease-linear before:content-[''] after:absolute after:left-0 after:top-0 after:z-[-1] after:box-border after:h-full after:w-full after:origin-bottom-right after:scale-100 after:rounded-[10px] after:border-2 after:border-solid after:border-[#fff] after:bg-transparent after:transition-transform after:duration-500 after:ease-linear after:content-[''] hover:before:origin-top-left hover:before:scale-100 hover:before:rounded-[10px] hover:before:transition-transform hover:before:duration-300 hover:before:ease-linear hover:after:origin-top-left hover:after:scale-0 hover:after:transition-transform hover:after:duration-500 hover:after:ease-linear">
+            <button class="relative left-1/2 top-8 h-14 w-40 translate-x-[-50%] translate-y-[-50%] transform cursor-pointer rounded-[10px] bg-[#0e7490] text-center text-base font-bold text-white before:absolute before:left-0 before:top-0 before:z-[-1] before:h-full before:w-full before:origin-bottom-right before:scale-0 before:rounded-[10px] before:bg-[#ffffff3a] before:transition-transform before:duration-500 before:ease-linear before:content-[''] after:absolute after:left-0 after:top-0 after:z-[-1] after:box-border after:h-full after:w-full after:origin-bottom-right after:scale-100 after:rounded-[10px] after:border-2 after:border-solid after:border-[#fff] after:bg-transparent after:transition-transform after:duration-500 after:ease-linear after:content-[''] hover:before:origin-top-left hover:before:scale-100 hover:before:rounded-[10px] hover:before:transition-transform hover:before:duration-300 hover:before:ease-linear hover:after:origin-top-left hover:after:scale-0 hover:after:transition-transform hover:after:duration-500 hover:after:ease-linear">
               Login
             </button>
             </Link>
@@ -150,7 +150,7 @@ function Header() {
       </nav>
 
       {/* Second Navbar - Sticky below the first navbar */}
-      <nav className="bg-gray-50 dark:bg-gray-700 sticky top-0 left-0 z-10 shadow-md">
+      <nav className="bg-gray-100 dark:bg-gray-700 sticky top-0 left-0 z-10 shadow-md">
         <div className="max-w-screen-xl px-4 py-3 mx-auto">
           <div className="flex items-center justify-center w-full">
             <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
